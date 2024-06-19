@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+.img{
+  padding-top: 50px;
+}
+
+*{
+  font-family: "Chocolate Classical Sans", sans-serif;
+}
+
+.navbar-brand{
+  background-color: #FCDC94;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.line {
+  border-bottom: 1px solid #ffc107 !important;
+  position: relative;
+}
+.line:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border: 3px solid #ffc107;
+  border-width: 3px 20px;
+  top: -3px;
+  border-radius: 3px;
+}
+.info,
+/*.skills {
+  margin-top: 50px;
+}*/
+.skills p {
+  margin: 30px 0px 0px 0px;
+}
+.box-ck,
+.box {
+  display: inline-flex;
+  width: 23px;
+  height: 5px;
+  margin: 0px 1px;
+}
+.box {
+  background: #eee;
+}
+.box-ck {
+  background: #ffc107;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 1px solid #3b4144;
+  background-size: 90px 90px;
+  background-position: center;
+}
+.circle-image1 {
+  background-image: url("https://neinei0516.github.io/img/drums.png")
+}
+.circle-image2 {
+  background-image: url("https://neinei0516.github.io/img/cat.png")
+}
+.circle-image3 {
+  background-image: url("https://neinei0516.github.io/img/fork-and-spoon.png")
+}
+.circle-image4 {
+  background-image: url("https://neinei0516.github.io/img/camera.png")
+}
+.listPassion {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listPassion > li {
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+section{
+  padding-top: 80px;
+}
+section#s1{
+  background-color: #F6E6CB;
+}
+section#s2{
+  background-color: #CAE6B2;
+}
+section#s3{
+  background-color: #FFD0D0;
+  padding-bottom: 200px;
+}
+section#s4{
+  background-color: #F9D689;
+}
+
+.container{
+  padding-top: 50px;
+}
+
+.footer {
+  position: relative;
+}
+.time {
+  padding-left: 30px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 27px;
+  position: relative;
+}
+.decorationLine {
+  position: absolute;
+  height: 6px;
+  margin-top: 20px;
+  line-height: 35px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.decorationCircle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #81A263;
+}
+.decorationLine:nth-of-type(1) {
+  width: 35%;
+  top: -20px;
+  left: 20px;
+  background: linear-gradient(135deg, #365E32, #81A263);
+} 
+.decorationCircle:nth-of-type(2) {
+  top: 0px;
+  left: 40%;
+}
+.decorationLine:nth-of-type(3) {
+  width: 50%;
+  left: 36%;
+  top: 0px;
+  background: linear-gradient(135deg, #365E32, #81A263);
+}
+.decorationCircle:nth-of-type(4) {
+  top: 20px;
+  left: 89%;
+}
+.listExperience {
+  display: flex;
+  /*padding-left: 30px;*/
+}
+.listExperience > li {
+  padding-left: 20px;
+  flex: 3;
+}
+.listExperience li ul {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  border-left: 3px solid #81A263;
+/*   background-color: pink; */
+}
+.listExperience > li > ul > li {
+  margin-top: 13px;
+} 
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
